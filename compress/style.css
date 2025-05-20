@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  text-align: center;
+  width: 400px;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #4CAF50;
+}
+
+input[type="file"] {
+  margin-bottom: 20px;
+}
+
+ul#fileList {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+  text-align: left;
+  max-height: 150px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 14px;
+}
+button {
+  padding: 10px 20px;
+  background: #4CAF50;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #45a049;
+}
+
+a#downloadLink {
+  display: block;
+  margin-top: 20px;
+  color: #007BFF;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a#downloadLink:hover {
+  text-decoration: underline;
+}

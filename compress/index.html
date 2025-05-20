@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Z Compressor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Z Compressor</h1>
+    <input type="file" id="fileInput" multiple>
+    <ul id="fileList"></ul>
+    <button id="compressBtn">Compress to ZIP</button>
+    <a id="downloadLink" style="display: none;" download="compressed.zip">Download ZIP</a>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
